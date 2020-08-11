@@ -1,0 +1,22 @@
+@import "fonts.scss";
+
+* {
+  margin: 0;
+  // padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Open sans", sans-serif;
+  font-weight: unset;
+}
+
+p, span{
+  font-family: "Raleway",  sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
