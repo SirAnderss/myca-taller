@@ -49,7 +49,7 @@ class Countdown extends Component {
             <div className="countdown-item">
               <SVGCircle radius={daysRadius} />
               {days}
-              <span>días</span>
+              <span>d&iacute;as</span>
             </div>
           )}
           {hours && (
@@ -79,16 +79,9 @@ class Countdown extends Component {
   }
 }
 
-if (window.innerWidth < 992) {
-  console.log('Hola');
-} else {
-  console.log('No hola');
-}
-
 let screenWidth = window.innerWidth
 const SVGCircle = function ({ radius }) {
 
-  console.log(screenWidth)
   if (screenWidth <= 1024) {
     return <svg className="countdown-svg">
       <path

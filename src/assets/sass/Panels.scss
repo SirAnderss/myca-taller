@@ -1,0 +1,70 @@
+@import "fonts.scss", "color.scss", "break-points.scss";
+
+.panels {
+  width: 80%;
+  margin: 50px auto;
+  .panel {
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    display: none;
+    .spotlight {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 0 0 2rem 0;
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 0;
+        li {
+          list-style: none;
+          &:nth-last-child(1) {
+            padding: 2rem 0 0 0;
+            margin: 2rem 0 0 0;
+            border-top: 2px solid #eeeeeeee;
+          }
+          h4 {
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            color: $dark;
+          }
+          p {
+            color: $light;
+          }
+        }
+      }
+      span {
+        position: relative;
+        margin: 0 4rem;
+        display: inline-block;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          width: 300px;
+          height: 300px;
+          border-radius: 50%;
+          top: 0;
+          left: 0;
+          background: linear-gradient(170deg, #eeeeee1f, #2c94f54f);
+        }
+        img {
+          width: 300px;
+          height: 300px;
+          border-radius: 50%;
+          z-index: -1;
+        }
+      }
+      ul:first-of-type {
+        text-align: right;
+      }
+    }
+  }
+  .active {
+    display: block;
+    opacity: 1;
+  }
+}
