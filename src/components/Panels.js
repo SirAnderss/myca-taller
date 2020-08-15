@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/sass/Panels.scss";
-import tools from "../assets/img/tools.webp";
+import sadness from "../assets/img/sadness.webp";
 import coaching from "../assets/img/coaching.webp";
 import sessions from "../assets/img/sessions.webp";
 
@@ -25,40 +25,28 @@ function Panels(props) {
         <div className="spotlight">
           <ul>
             <li>
-              <h4>Lorem, ipsum dolor.</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt aut corrupti sapiente asperiores iusto expedita
-                repellat ab. Quidem, totam numquam?
+                Sientes que el miedo, la incertidumbre, los cambios no te permiten avanzar para hacer realidad ese sue&ntilde;o, de vivir bajo tus t&eacute;rminos.
               </p>
             </li>
             <li>
-              <h4>Lorem, ipsum dolor.</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt aut corrupti sapiente asperiores iusto expedita
-                repellat ab. Quidem, totam numquam?
+                Sientes que todo te sale mal, piensas mucho negativamente, que todos y absolutamente todo est&aacute; en contra tuyo y no sabes c&oacute;mo salir de ese estado?
               </p>
             </li>
           </ul>
           <span>
-            <img src={tools} alt="Herramientas" />
+            <img src={sadness} alt="Herramientas" />
           </span>
           <ul>
             <li>
-              <h4>Lorem, ipsum dolor.</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt aut corrupti sapiente asperiores iusto expedita
-                repellat ab. Quidem, totam numquam?
+                Sientes que no eres valioso ni fuerte para afrontar las m&uacute;ltiples  situaciones  que estas viviendo y te resistes al cambio, porque no sabes c&oacute;mo hacerlo.
               </p>
             </li>
             <li>
-              <h4>Lorem, ipsum dolor.</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt aut corrupti sapiente asperiores iusto expedita
-                repellat ab. Quidem, totam numquam?
+                Te sientes preocupado que ha llegado a no conciliar el sueño, sientes ansiedad, sientes que estas deprimido y piensas que no quieres vivir lo que te est&aacute; sucediendo y no encuentras salida.
               </p>
             </li>
           </ul>
@@ -68,19 +56,13 @@ function Panels(props) {
         <div className="spotlight">
           <ul>
             <li>
-              <h4>Lorem, ipsum dolor.</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt aut corrupti sapiente asperiores iusto expedita
-                repellat ab. Quidem, totam numquam?
+                En este taller de 7 semanas vamos a tener una sesi&oacute;n virtual cada semana, cada sesi&oacute;n ser&aacute; en un grupo exclusivo, los integrantes ser&aacute;n personas que al igual que t&uacute; est&aacute;n buscando salir de sus propias crisis.
               </p>
             </li>
             <li>
-              <h4>Lorem, ipsum dolor.</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt aut corrupti sapiente asperiores iusto expedita
-                repellat ab. Quidem, totam numquam?
+                En cada sesi&oacute;n vas aprender herramientas pr&aacute;cticas y profundas que te van a permitir ver otras posibilidades, para que puedas vivir una vida en tus t&eacute;rminos.
               </p>
             </li>
           </ul>
@@ -89,19 +71,13 @@ function Panels(props) {
           </span>
           <ul>
             <li>
-              <h4>Lorem, ipsum dolor.</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt aut corrupti sapiente asperiores iusto expedita
-                repellat ab. Quidem, totam numquam?
+                Desde el momento que te registres, tendr&aacute;s acceso a un programa de entrenamiento en coaching de transformaci&oacute;n enfocado en c&oacute;mo superar crisis personales y/o globales como la actual y salir fortalecidos (programa virtual con videos y audio descargable, con material escrito).
               </p>
             </li>
             <li>
-              <h4>Lorem, ipsum dolor.</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt aut corrupti sapiente asperiores iusto expedita
-                repellat ab. Quidem, totam numquam?
+                Se estudiar&iacute;an los videos correspondientes a cada semana y en las sesiones de grupo se compartir&aacute; el impacto del contenido y experiencias en grupo.
               </p>
             </li>
           </ul>
@@ -111,7 +87,6 @@ function Panels(props) {
         <div className="spotlight">
           <ul>
             <li>
-              <h4>Lorem, ipsum dolor.</h4>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Incidunt aut corrupti sapiente asperiores iusto expedita
@@ -119,7 +94,6 @@ function Panels(props) {
               </p>
             </li>
             <li>
-              <h4>Lorem, ipsum dolor.</h4>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Incidunt aut corrupti sapiente asperiores iusto expedita
@@ -132,7 +106,6 @@ function Panels(props) {
           </span>
           <ul>
             <li>
-              <h4>Lorem, ipsum dolor.</h4>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Incidunt aut corrupti sapiente asperiores iusto expedita
@@ -140,7 +113,6 @@ function Panels(props) {
               </p>
             </li>
             <li>
-              <h4>Lorem, ipsum dolor.</h4>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Incidunt aut corrupti sapiente asperiores iusto expedita

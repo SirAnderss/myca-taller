@@ -9,7 +9,7 @@ function Tabs() {
   }
   let active = {
     serv1: null,
-    serv2: null,
+    serv2: 2,
     serv3: null,
   };
 
@@ -28,18 +28,18 @@ function Tabs() {
             <h3>El taller “C&oacute;mo superar crisis en la vida”</h3>
             <p>
               Te da la f&oacute;rmula de 7 pasos para superar y aprovechar los
-              momentos adversos e inciertos que todos eventualmente afrontamos.
+              momentos adversos como crisis personales o globales.
             </p>
           </div>
           <ul className="titles">
             <li className={`title ${active.serv1}`} onClick={() => handleViewClick(1)}>
-              Algun texto
+              es para ti s&iacute;...
             </li>
             <li className={`title ${active.serv2}`} onClick={() => handleViewClick(2)}>
-              Otro texto
+              que incluye
             </li>
             <li className={`title ${active.serv3}`} onClick={() => handleViewClick(3)}>
-              Otro espacio
+              beneficios
             </li>
           </ul>
         </div>

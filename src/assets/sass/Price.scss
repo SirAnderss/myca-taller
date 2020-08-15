@@ -1,0 +1,39 @@
+@import "fonts.scss", "color.scss", "break-points.scss";
+
+.price {
+  width: 100%;
+  background: #80bb2d;
+  color: #fff;
+  padding: 40px;
+  .option,
+  .invesment {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    h3 {
+      font-size: 35px;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 1rem;
+      strong{
+        font-size: 20px;
+      }
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  .invesment{
+    span{
+      font-size: 15px;
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
+}
+
+// @media screen and (max-width: $large) {
+//   .price {
+//   }
+// }

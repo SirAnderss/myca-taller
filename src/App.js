@@ -4,7 +4,9 @@ import './assets/sass/App.scss';
 import Hero from './components/Hero';
 import Info from './components/Info';
 import Tabs from './components/Tabs';
-import Test from './components/Test';
+import Price from './components/Price';
+import Guaranty from './components/Guaranty';
+import Contact from './components/Contact';
 
 class App extends Component {
   render() {
@@ -12,7 +14,9 @@ class App extends Component {
       <Hero />
       <Info />
       <Tabs />
-      <Test />
+      <Price />
+      <Guaranty />
+      <Contact />
     </div>
   }
 }
