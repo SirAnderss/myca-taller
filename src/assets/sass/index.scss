@@ -19,10 +19,18 @@ ul {
 }
 
 p,
-span {
+span,
+label,
+input,
+textarea {
   font-family: "Raleway", sans-serif;
 }
 
 a {
   text-decoration: none;
 }
+
+input.invalid:focus {
+  outline-color: darkred;
+}
+

@@ -15,8 +15,9 @@
       margin-bottom: 1rem;
     }
     p {
+      font-size: 22px;
       margin-bottom: 1rem;
-      strong{
+      strong {
         font-size: 20px;
       }
       span {
@@ -24,8 +25,8 @@
       }
     }
   }
-  .invesment{
-    span{
+  .invesment {
+    span {
       font-size: 15px;
       font-weight: bold;
       font-style: italic;
@@ -33,7 +34,17 @@
   }
 }
 
-// @media screen and (max-width: $large) {
-//   .price {
-//   }
-// }
+@media screen and (max-width: $large) {
+  .price {
+    .option,
+    .invesment {
+      width: 90%;
+      h3 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}

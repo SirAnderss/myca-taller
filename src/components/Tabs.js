@@ -3,13 +3,13 @@ import "../assets/sass/Tabs.scss";
 import Panels from "./Panels";
 
 function Tabs() {
-  const [view, setView] = useState(1);
+  const [view, setView] = useState(2);
   function handleViewClick(val) {
     setView(val);
   }
   let active = {
     serv1: null,
-    serv2: 2,
+    serv2: null,
     serv3: null,
   };
 
@@ -36,7 +36,7 @@ function Tabs() {
               es para ti s&iacute;...
             </li>
             <li className={`title ${active.serv2}`} onClick={() => handleViewClick(2)}>
-              que incluye
+              que incluye?
             </li>
             <li className={`title ${active.serv3}`} onClick={() => handleViewClick(3)}>
               beneficios

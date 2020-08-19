@@ -7,7 +7,7 @@ function Guaranty() {
       <div>
         <h2>Mi garant&iacute;a</h2>
         <p>
-          &Uacute;nete al taller y si en la tercera sesión no sientes que es para ti o no ves que has progresado, te devuelvo el dinero invertido sin problema.
+          &Uacute;nete al taller y si en la tercera sesión no sientes que es para ti o no ves que has progresado, <br/> te devuelvo el dinero invertido sin problema.
         </p>
         <span></span>
       </div>

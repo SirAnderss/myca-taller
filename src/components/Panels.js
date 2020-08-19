@@ -88,16 +88,12 @@ function Panels(props) {
           <ul>
             <li>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt aut corrupti sapiente asperiores iusto expedita
-                repellat ab. Quidem, totam numquam?
+                Vivir una vida en bienestar entendiendo que la experiencia se vive de adentro hacia afuera.
               </p>
             </li>
             <li>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt aut corrupti sapiente asperiores iusto expedita
-                repellat ab. Quidem, totam numquam?
+                Reconocer que tengo todo a disposición para crear lo que deseo.
               </p>
             </li>
           </ul>
@@ -107,16 +103,12 @@ function Panels(props) {
           <ul>
             <li>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt aut corrupti sapiente asperiores iusto expedita
-                repellat ab. Quidem, totam numquam?
+                Aprender herramientas que me permitan brillar con luz propia.
               </p>
             </li>
             <li>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt aut corrupti sapiente asperiores iusto expedita
-                repellat ab. Quidem, totam numquam?
+                Sentir paz, calma, tranquilidad, claridad.
               </p>
             </li>
           </ul>

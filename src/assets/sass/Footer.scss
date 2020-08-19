@@ -1,0 +1,32 @@
+@import "fonts.scss", "color.scss", "break-points.scss";
+
+.footer {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  padding: 40px;
+  img {
+    width: 120px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+  }
+  p,
+  span {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  span {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  p {
+    a {
+      color: $main;
+    }
+  }
+}
+
+// @media screen and (max-width: $large) {
+//   .footer {
+//   }
+// }

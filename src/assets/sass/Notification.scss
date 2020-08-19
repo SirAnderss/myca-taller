@@ -1,0 +1,56 @@
+@import "fonts.scss", "color.scss", "break-points.scss";
+
+.toastr {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  display: none;
+  width: 300px;
+  opacity: 0;
+  border-radius: 5px;
+  transition: opacity 0.3 ease;
+  z-index: 99;
+  h4,
+  span {
+    padding: 15px;
+  }
+  h4 {
+    font-weight: bold;
+  }
+  span {
+    float: left;
+  }
+}
+.red,
+.green {
+  display: block;
+  opacity: 0.85;
+}
+.red {
+  border: 2px solid #c82333;
+  h4 {
+    background: #dc3545;
+  }
+  span {
+    background: #e44e5d;
+  }
+}
+.green {
+  border: 2px solid #28a745;
+  h4 {
+    background: #218838;
+  }
+  span {
+    background: #40b95c;
+  }
+}
+
+@media screen and (max-width: $medium) {
+  .toastr {
+    width: 250px;
+    h4,
+    span {
+      padding: 10px;
+    }
+  }
+}
